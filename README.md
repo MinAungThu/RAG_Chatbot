@@ -9,6 +9,7 @@
 - **PDF Document Processing:** Loads and processes PDF documents for contextual answers.
 - **Gradio UI:** Provides a simple web-based chatbot interface.
 - **Hugging Face LLM Integration:** Utilizes **Mistral-7B-Instruct** for response generation. **[the model can be changed based on the project requirements]**
+- Delete all the placeholder.txt files in data and chromadb files before you run the application.
 
 ## Project Structure
 ```
