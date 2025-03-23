@@ -8,7 +8,7 @@
 - **Semantic Caching:** Implements **Upstash Semantic Cache** to improve performance and reduce redundant API calls.
 - **PDF Document Processing:** Loads and processes PDF documents for contextual answers.
 - **Gradio UI:** Provides a simple web-based chatbot interface.
-- **Hugging Face LLM Integration:** Utilizes **Mistral-7B-Instruct** for response generation. [the model can be changed based on the project requirements]
+- **Hugging Face LLM Integration:** Utilizes **Mistral-7B-Instruct** for response generation. **[the model can be changed based on the project requirements]**
 
 ## Project Structure
 ```
@@ -54,17 +54,11 @@ python main.py
 ```
 This will launch a **Gradio web UI**, where you can interact with the chatbot.
 
-## Security Notes
-- **Do not share your API keys publicly.**
-- **Ensure your `.env` file is added to `.gitignore`** before pushing to GitHub to keep your credentials secure.
-
-## To-Do
+## Potential Improvements
 - Enhance caching strategies
 - Support additional document formats (**DOCX, TXT, etc.**)
 - Deploy as a web app
 
-## Contributing
-Contributions are welcome! Feel free to **fork the repository** and submit **pull requests**.
 
 ## License
 **MIT License** - see `LICENSE` for details.
